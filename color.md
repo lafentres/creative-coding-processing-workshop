@@ -86,10 +86,12 @@ This is the same fill() we used on text works for filling in shapes.
     ```
     You can specify the r (red), g (green), and b (blue) values separately. These values run from 0 - 255. You can also specify the alpha value to control the transparency. This value is also 0 - 255 (0 is completely transparent, 255 is completely opaque).
 
-## Outlines with stoke() and noStroke()
+## Outlines with stoke(), noStroke(), and strokeWeight()
 [stroke Reference](https://processing.org/reference/stroke_.html)
 
 [noStroke Reference](https://processing.org/reference/noStroke_.html)
+
+[strokeWeight Reference](https://processing.org/reference/strokeWeight_.html)
 
 ### stroke()
 * This is how you change the outline/border color when drawing shapes
@@ -133,6 +135,13 @@ This is the same fill() we used on text works for filling in shapes.
     ```
     noStroke();
     ```
+    
+### strokeWeight()    
+  * You can change the size of the outline/border with strokeWeight()
+    ```
+    strokeWeight(size)
+    ```
+    where size is the weight in pixels
 
 ## Setting the background color
 [Reference](https://processing.org/reference/background_.html)
