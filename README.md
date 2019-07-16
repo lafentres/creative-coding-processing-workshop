@@ -7,7 +7,7 @@ Exercises and notes:
 1. [Color](color.md)
 1. [Shapes](shapes.md)
 1. [Mini-project #1](mini-project-1.md)
-1. [Variables](variables.md)
+1. [Variables & more](variables-and-more.md)
 1. [Interactivity](interactivity.md)
 1. [Mini-project #2](mini-project-2.md)
 1. [Images](images.md)
